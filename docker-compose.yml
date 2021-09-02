@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: "qtree/web:latest"
+    container_name: "qtree_web"
+    ports:
+      - "5322:3000"
+
+      
